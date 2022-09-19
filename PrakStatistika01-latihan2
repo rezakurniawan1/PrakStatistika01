@@ -1,0 +1,5 @@
+data_reza_csv = read.csv("C:/1/PrakStatistika01.csv")
+install.packages("xlsx")
+library("xlsx")
+data_PrakStatistika01_xlsx = read.xlsx("C:/1/Prakstatistika01.xlsx",1)
+View(data_PrakStatistika01_xlsx)
