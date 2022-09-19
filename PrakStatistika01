@@ -1,0 +1,4 @@
+data_reza = read.delim("clipboard")
+View(data_reza)
+mean(data_reza$Tinggi.Badan)
+str(data_reza)
